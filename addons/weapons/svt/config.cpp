@@ -29,17 +29,6 @@ class CfgWeapons
         };
     };
 
-    class NORTH_SVT40: NORTH_SVT38
-    {
-        class Single: Mode_SemiAuto
-        {
-            class StandardSound
-            {
-                soundSetShot[] = {"jsrs_svt40_shot_soundset", "jsrs_ww2_carbine_reverb_soundset"};
-            };
-        };
-    };
-
     class NORTH_AVT40: NORTH_SVT38
     {
         class Single: Mode_SemiAuto
