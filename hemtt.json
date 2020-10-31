@@ -1,0 +1,13 @@
+{
+  "name": "Anrop Northern Fronts JSRS",
+  "prefix": "anrop_northern_fronts_jsrs",
+  "version": "1.0.0",
+  "author": "Anrop",
+  "files": [
+    "mod.cpp"
+  ],
+  "keyname": "anrop_northern_fronts_jsrs",
+  "reuse_private_key": true,
+  "signame": "anrop_northern_fronts_jsrs",
+  "sigversion": 3
+}
