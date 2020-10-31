@@ -27,7 +27,7 @@ class CfgWeapons
                 soundSetShot[] = {"jsrs_pdw2000_shot_soundset", "jsrs_ww2_smg_reverb_soundset"};
             };
         };
-        class Full: Mode_FullAuto
+        class FullAuto: Mode_FullAuto
         {
             class StandardSound
             {
@@ -45,7 +45,7 @@ class CfgWeapons
                 soundSetShot[] = {"jsrs_pdw2000_shot_soundset", "jsrs_ww2_smg_reverb_soundset"};
             };
         };
-        class Full: Mode_FullAuto
+        class FullAuto: Mode_FullAuto
         {
             class StandardSound
             {
@@ -63,7 +63,7 @@ class CfgWeapons
                 soundSetShot[] = {"jsrs_pdw2000_shot_soundset", "jsrs_ww2_smg_reverb_soundset"};
             };
         };
-        class Full: Mode_FullAuto
+        class FullAuto: Mode_FullAuto
         {
             class StandardSound
             {
@@ -81,7 +81,7 @@ class CfgWeapons
                 soundSetShot[] = {"jsrs_pdw2000_shot_soundset", "jsrs_ww2_smg_reverb_soundset"};
             };
         };
-        class Full: Mode_FullAuto
+        class FullAuto: Mode_FullAuto
         {
             class StandardSound
             {
