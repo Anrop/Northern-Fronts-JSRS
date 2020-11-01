@@ -72,6 +72,28 @@ class CfgWeapons
         };
     };
 
+    class NORTH_PPD34_38: NORTH_PPD34
+    {
+    };
+
+    class NORTH_PPD40: NORTH_PPD34_38
+    {
+        class Single: Mode_SemiAuto
+        {
+            class StandardSound
+            {
+                soundSetShot[] = {"jsrs_pdw2000_shot_soundset", "jsrs_ww2_smg_reverb_soundset"};
+            };
+        };
+        class FullAuto: Mode_FullAuto
+        {
+            class StandardSound
+            {
+                soundSetShot[] = {"jsrs_pdw2000_shot_soundset", "jsrs_ww2_smg_reverb_soundset"};
+            };
+        };
+    };
+
     class NORTH_ppsh41 : Rifle_Base_F
     {
         class Single: Mode_SemiAuto
