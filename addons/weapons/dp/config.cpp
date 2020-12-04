@@ -20,6 +20,13 @@ class CfgWeapons
     
     class NORTH_dp27 : Rifle_Base_F
     {
+        class Single: Mode_SemiAuto
+        {
+            class StandardSound
+            {
+                soundSetShot[] = {"jsrs_dp28_shot_soundset", "jsrs_ww2_mg_reverb_soundset"};
+            };
+        };
         class FullAuto: Mode_FullAuto
         {
             class StandardSound
