@@ -107,13 +107,6 @@ class CfgWeapons
 
     class NORTH_sov_M9130 : NORTH_fin_M9130
     {
-        class Single: Mode_SemiAuto
-        {
-            class StandardSound
-            {
-                soundSetShot[] = {"jsrs_mosin_shot_soundset", "jsrs_ww2_bolt_rifle_reverb_soundset"};
-            };
-        };
     };
 
     class NORTH_sov_m9130_PU: NORTH_sov_m9130
