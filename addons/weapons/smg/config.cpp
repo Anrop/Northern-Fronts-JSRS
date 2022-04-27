@@ -18,7 +18,7 @@ class CfgWeapons
 {
     class Rifle_Base_F;
     
-    class NORTH_kp31 : Rifle_Base_F
+    class NORTH_kp31Base : Rifle_Base_F
     {
         class Single: Mode_SemiAuto
         {
@@ -35,6 +35,8 @@ class CfgWeapons
             };
         };
     };
+
+    class NORTH_kp31 : NORTH_kp31Base {};
 
     class NORTH_kp31_sjr : NORTH_kp31
     {
