@@ -29,7 +29,9 @@ class CfgWeapons
         };
     };
 
-    class NORTH_AVT40: NORTH_SVT38
+    class NORTH_SVT40: NORTH_SVT38 {};
+
+    class NORTH_AVT40: NORTH_SVT40
     {
         class Single: Mode_SemiAuto
         {
@@ -47,7 +49,7 @@ class CfgWeapons
         };
     };
 
-    class NORTH_SVT40PU: NORTH_SVT38
+    class NORTH_SVT40PU: NORTH_SVT40
     {
         class Single: Mode_SemiAuto
         {
